@@ -4,6 +4,7 @@
   --color-transparent: rgb(15 116 143 / 60%);
   --section-padding: 6.25rem 0;
 }
+
 /* End Variables */
 
 /* Start Global Rules */
@@ -63,6 +64,7 @@ body {
     width: 1320px;
   }
 }
+
 /* End Global Rules */
 
 /* Start Components  */
@@ -107,6 +109,7 @@ body {
   opacity: 0.6;
   line-height: 1.8;
 }
+
 /* End Components  */
 
 /* ----------------------- */
@@ -213,12 +216,13 @@ header nav .search i {
   top: 50%;
   transform: translateY(-50%);
 }
+
 /* End Header */
 
 /* Start Landing */
 .landing {
   min-height: 100vh;
-  background-image: url(/assets/resources/img/landing.jpg);
+  background-image: url(../../resources/img/landing.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -268,6 +272,7 @@ header nav .search i {
   line-height: 1.5;
   margin-bottom: 1.2rem;
 }
+
 .landing .landing-text .landing-content p {
   font-size: 1rem;
   line-height: 1.8;
@@ -317,6 +322,7 @@ header nav .search i {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
 }
+
 /* End Landing */
 
 /* Start Services */
@@ -365,6 +371,7 @@ header nav .search i {
   line-height: 1.6;
   opacity: 0.6;
 }
+
 /* End Services */
 
 /* Start Mobil Mockup */
@@ -372,7 +379,7 @@ header nav .search i {
   padding: var(--section-padding);
   height: 37.5rem;
   position: relative;
-  background-image: url(/assets/resources/img/design-features.jpg);
+  background-image: url(../../resources/img/design-features.jpg);
   background-size: cover;
   display: flex;
   justify-content: flex-end;
@@ -384,6 +391,7 @@ header nav .search i {
   .mockup .mockup-img {
     display: none;
   }
+
   .mockup .mockup-content {
     margin: auto 1rem;
   }
@@ -444,6 +452,7 @@ header nav .search i {
   font-weight: 900;
   margin-right: 0.875rem;
 }
+
 /* End Mobil Mockup */
 
 /* Start Portfolio */
@@ -531,8 +540,10 @@ header nav .search i {
   text-transform: uppercase;
   padding: 0.5rem 1rem;
   margin: 2rem auto;
+  width: -moz-fit-content;
   width: fit-content;
 }
+
 /* End Portfolio */
 
 /* Start video-Section */
@@ -584,6 +595,7 @@ header nav .search i {
   border: none;
   cursor: pointer;
 }
+
 /* End video-Section */
 
 /* Start About */
@@ -613,12 +625,13 @@ header nav .search i {
     margin-top: -9.5rem;
   }
 }
+
 /* End About */
 
 /* Start Statics */
 .stats {
   padding: var(--section-padding);
-  background-image: url(/assets/resources/img/stats.png);
+  background-image: url(../../resources/img/stats.png);
   background-size: cover;
   text-align: center;
   position: relative;
@@ -679,6 +692,7 @@ header nav .search i {
 .stats .container .stats-item p {
   font-size: 0.8rem;
 }
+
 /* End Statics */
 
 /* Start Testimonial */
@@ -813,13 +827,14 @@ header nav .search i {
   right: -0.5rem;
   top: -0.5rem;
 }
+
 /* End Testimonial */
 
 /* Start Quote */
 .quote {
   padding: var(--section-padding);
   color: #fff;
-  background-image: url(/assets/resources/img/quote.jpg);
+  background-image: url(../../resources/img/quote.jpg);
   background-size: cover;
   position: relative;
 }
@@ -872,6 +887,7 @@ header nav .search i {
   text-align: right;
   margin-right: 2rem;
 }
+
 /* End Quote
 
 /* Start Pricing */
@@ -951,6 +967,7 @@ header nav .search i {
 
 .pricing .price-plans .plan .plan-footer {
   display: block;
+  width: -moz-fit-content;
   width: fit-content;
   border: 1px solid var(--color-primary);
   margin: 2rem auto;
@@ -965,6 +982,7 @@ header nav .search i {
 
 .pricing .contact-link {
   display: block;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 2rem auto;
   padding: 1rem 2rem;
@@ -978,12 +996,13 @@ header nav .search i {
   background-color: var(--color-transparent);
   transition: 1s;
 }
+
 /* End Pricing */
 
 /* Start Subscribe */
 .subscribe {
   padding: var(--section-padding);
-  background-image: url(/assets/resources/img/subscribe.jpg);
+  background-image: url(../../resources/img/subscribe.jpg);
   background-size: cover;
   color: #fff;
   position: relative;
@@ -1053,6 +1072,7 @@ header nav .search i {
 .subscribe form ::placeholder {
   color: #fff;
 }
+
 .subscribe p {
   line-height: 2;
   margin-left: 3rem;
@@ -1064,6 +1084,7 @@ header nav .search i {
     text-align: center;
   }
 }
+
 /* End Subscribe */
 
 /* Start Contact Us */
@@ -1158,12 +1179,13 @@ header nav .search i {
     margin-bottom: 1rem;
   }
 }
+
 /* End Contact Us */
 
 /* Start Footer */
 footer {
   padding: 3rem 0;
-  background-image: url(/assets/resources/img/py.jpg);
+  background-image: url(../../resources/img/py.jpg);
   background-size: cover;
   position: relative;
   color: #fff;
@@ -1193,6 +1215,7 @@ footer p:not(.copyright) {
   text-transform: uppercase;
   padding: 1rem;
   border-bottom: 1px solid #fff;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 1rem auto;
   font-size: 1.2rem;
@@ -1221,6 +1244,7 @@ footer .copyright span {
   font-weight: bold;
   color: var(--color-primary);
 }
+
 /* End Footer */
 
 /* Start Scroll Top */
