@@ -1248,6 +1248,7 @@ footer .social-icons i {
 
 footer .social-icons i:hover {
   color: var(--color-primary);
+  cursor: pointer;
 }
 
 footer .copyright {
