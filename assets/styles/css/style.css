@@ -1071,6 +1071,12 @@ header nav .search i {
 
 .subscribe form ::placeholder {
   color: #fff;
+  opacity: 0.8;
+}
+
+.subscribe form input[type="email"]:focus::placeholder{
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .subscribe p {
@@ -1084,7 +1090,6 @@ header nav .search i {
     text-align: center;
   }
 }
-
 /* End Subscribe */
 
 /* Start Contact Us */
@@ -1115,8 +1120,18 @@ header nav .search i {
   width: 100%;
 }
 
+.contact .contact-content form .main-input::placeholder {
+  opacity: 0.6;
+}
+
 .contact .contact-content form .main-input:focus {
   outline: none;
+}
+
+
+.contact .contact-content form .main-input:focus::placeholder {
+opacity: 0;
+transition: 0.3s
 }
 
 .contact .contact-content form textarea.main-input {
@@ -1276,4 +1291,5 @@ footer .copyright span {
     bottom: 3rem;
   }
 }
+
 /* End Scroll Top */
