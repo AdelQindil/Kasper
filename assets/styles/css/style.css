@@ -1243,7 +1243,7 @@ footer .social-icons i {
   border-radius: 50%;
   text-align: center;
   line-height: 2.5rem;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 footer .social-icons i:hover {
