@@ -4,7 +4,6 @@
   --color-transparent: rgb(15 116 143 / 60%);
   --section-padding: 6.25rem 0;
 }
-
 /* End Variables */
 
 /* Start Global Rules */
@@ -109,7 +108,6 @@ body {
   opacity: 0.6;
   line-height: 1.8;
 }
-
 /* End Components  */
 
 /* ----------------------- */
@@ -141,6 +139,7 @@ header .container::after {
 
 header .container img {
   height: 40px;
+  width: 100%;
 }
 
 header .container nav {
@@ -216,7 +215,6 @@ header nav .search i {
   top: 50%;
   transform: translateY(-50%);
 }
-
 /* End Header */
 
 /* Start Landing */
@@ -1290,5 +1288,4 @@ footer .copyright span {
     bottom: 3rem;
   }
 }
-
 /* End Scroll Top */
