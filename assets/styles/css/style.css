@@ -4,6 +4,7 @@
   --color-transparent: rgb(15 116 143 / 60%);
   --section-padding: 6.25rem 0;
 }
+
 /* End Variables */
 
 /* Start Global Rules */
@@ -15,6 +16,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -108,6 +110,7 @@ body {
   opacity: 0.6;
   line-height: 1.8;
 }
+
 /* End Components  */
 
 /* ----------------------- */
@@ -215,11 +218,13 @@ header nav .search i {
   top: 50%;
   transform: translateY(-50%);
 }
+
 /* End Header */
 
 /* Start Landing */
 .landing {
   min-height: 100vh;
+  width: 100vw;
   background-image: url(../../resources/img/landing.jpg);
   background-size: cover;
   background-position: center;
@@ -376,6 +381,7 @@ header nav .search i {
 .mockup {
   padding: var(--section-padding);
   height: 37.5rem;
+  width: 100%;
   position: relative;
   background-image: url(../../resources/img/design-features.jpg);
   background-size: cover;
@@ -502,6 +508,8 @@ header nav .search i {
 
 .portfolio .images-wrapper figure img {
   max-width: 100%;
+  height: 100%;
+  width: 100%;
   transition: 0.3s;
   filter: grayscale(0.7);
 }
@@ -608,6 +616,8 @@ header nav .search i {
   bottom: -13rem;
   margin-top: -13rem;
   max-width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 767px) {
@@ -734,6 +744,7 @@ header nav .search i {
 
 .test-skills .testimonial .test-content img {
   width: 6rem;
+  height: 100%;
   border-radius: 50%;
   margin: 0 auto 1rem;
 }
@@ -995,6 +1006,7 @@ header nav .search i {
   background-color: var(--color-transparent);
   transition: 1s;
 }
+
 /* End Pricing */
 
 /* Start Subscribe */
@@ -1072,7 +1084,7 @@ header nav .search i {
   opacity: 0.8;
 }
 
-.subscribe form input[type="email"]:focus::placeholder{
+.subscribe form input[type="email"]:focus::placeholder {
   opacity: 0;
   transition: 0.3s;
 }
@@ -1088,6 +1100,7 @@ header nav .search i {
     text-align: center;
   }
 }
+
 /* End Subscribe */
 
 /* Start Contact Us */
@@ -1128,8 +1141,8 @@ header nav .search i {
 
 
 .contact .contact-content form .main-input:focus::placeholder {
-opacity: 0;
-transition: 0.3s
+  opacity: 0;
+  transition: 0.3s
 }
 
 .contact .contact-content form textarea.main-input {
@@ -1192,6 +1205,7 @@ transition: 0.3s
     margin-bottom: 1rem;
   }
 }
+
 /* End Contact Us */
 
 /* Start Footer */
@@ -1221,6 +1235,7 @@ footer .container {
 footer img {
   margin-bottom: 1rem;
   width: 10rem;
+  height: 100%;
 }
 
 footer p:not(.copyright) {
@@ -1257,6 +1272,7 @@ footer .copyright span {
   font-weight: bold;
   color: var(--color-primary);
 }
+
 /* End Footer */
 
 /* Start Scroll Top */
@@ -1279,7 +1295,6 @@ footer .copyright span {
 
 .back-to-top i {
   color: #fff;
-
   transition: 0.3s;
 }
 
@@ -1288,4 +1303,5 @@ footer .copyright span {
     bottom: 3rem;
   }
 }
+
 /* End Scroll Top */
