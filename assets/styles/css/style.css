@@ -65,6 +65,7 @@ body {
     width: 1320px;
   }
 }
+
 /* End Global Rules */
 
 /* Start Components  */
@@ -223,8 +224,8 @@ header nav .search i {
 /* Start Landing */
 .landing {
   min-height: 100vh;
-  width: 100vw;
-  background-image: url(../../resources/img/landing.jpg);
+  width: 100%;
+  background-image: url(../../resources/img/landing.avif);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -324,6 +325,7 @@ header nav .search i {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
 }
+
 /* End Landing */
 
 /* Start Services */
@@ -372,6 +374,7 @@ header nav .search i {
   line-height: 1.6;
   opacity: 0.6;
 }
+
 /* End Services */
 
 /* Start Mobil Mockup */
@@ -380,7 +383,7 @@ header nav .search i {
   height: 37.5rem;
   width: 100%;
   position: relative;
-  background-image: url(../../resources/img/design-features.jpg);
+  background-image: url(../../resources/img/design-features.avif);
   background-size: cover;
   display: flex;
   justify-content: flex-end;
@@ -453,6 +456,7 @@ header nav .search i {
   font-weight: 900;
   margin-right: 0.875rem;
 }
+
 /* End Mobil Mockup */
 
 /* Start Portfolio */
@@ -508,6 +512,7 @@ header nav .search i {
   width: 100%;
   transition: 0.3s;
   filter: grayscale(0.7);
+  aspect-ratio: 1.5;
 }
 
 .portfolio .images-wrapper figure:hover img {
@@ -545,6 +550,7 @@ header nav .search i {
   width: -moz-fit-content;
   width: fit-content;
 }
+
 /* End Portfolio */
 
 /* Start video-Section */
@@ -596,6 +602,7 @@ header nav .search i {
   border: none;
   cursor: pointer;
 }
+
 /* End video-Section */
 
 /* Start About */
@@ -627,12 +634,13 @@ header nav .search i {
     margin-top: -9.5rem;
   }
 }
+
 /* End About */
 
 /* Start Statics */
 .stats {
   padding: var(--section-padding);
-  background-image: url(../../resources/img/stats.png);
+  background-image: url(../../resources/img/stats.avif);
   background-size: cover;
   text-align: center;
   position: relative;
@@ -693,6 +701,7 @@ header nav .search i {
 .stats .container .stats-item p {
   font-size: 0.8rem;
 }
+
 /* End Statics */
 
 /* Start Testimonial */
@@ -828,6 +837,7 @@ header nav .search i {
   right: -0.5rem;
   top: -0.5rem;
 }
+
 /* End Testimonial */
 
 /* Start Quote */
@@ -887,6 +897,7 @@ header nav .search i {
   text-align: right;
   margin-right: 2rem;
 }
+
 /* End Quote
 
 /* Start Pricing */
@@ -1002,7 +1013,7 @@ header nav .search i {
 /* Start Subscribe */
 .subscribe {
   padding: var(--section-padding);
-  background-image: url(../../resources/img/subscribe.jpg);
+  background-image: url(../../resources/img/subscribe.avif);
   background-size: cover;
   color: #fff;
   position: relative;
