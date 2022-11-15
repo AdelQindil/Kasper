@@ -65,6 +65,7 @@ body {
     width: 1320px;
   }
 }
+
 /* End Global Rules */
 
 /* Start Components  */
@@ -219,7 +220,7 @@ header nav .search i {
   cursor: pointer;
 }
 
-header nav .search i:hover{
+header nav .search i:hover {
   color: var(--color-primary);
 }
 
@@ -293,7 +294,7 @@ header nav .search i:hover{
   cursor: pointer;
 }
 
-.landing i:hover{
+.landing i:hover {
   color: var(--color-primary);
 }
 
@@ -333,6 +334,7 @@ header nav .search i:hover{
   background-color: var(--color-primary);
   border-color: var(--color-primary);
 }
+
 /* End Landing */
 
 /* Start Services */
@@ -381,6 +383,7 @@ header nav .search i:hover{
   line-height: 1.6;
   opacity: 0.6;
 }
+
 /* End Services */
 
 /* Start Mobil Mockup */
@@ -462,6 +465,7 @@ header nav .search i:hover{
   font-weight: 900;
   margin-right: 0.875rem;
 }
+
 /* End Mobil Mockup */
 
 /* Start Portfolio */
@@ -554,6 +558,7 @@ header nav .search i:hover{
   width: -moz-fit-content;
   width: fit-content;
 }
+
 /* End Portfolio */
 
 /* Start video-Section */
@@ -605,6 +610,7 @@ header nav .search i:hover{
   border: none;
   cursor: pointer;
 }
+
 /* End video-Section */
 
 /* Start About */
@@ -634,6 +640,7 @@ header nav .search i:hover{
     margin-top: -9.5rem;
   }
 }
+
 /* End About */
 
 /* Start Statics */
@@ -700,6 +707,7 @@ header nav .search i:hover{
 .stats .container .stats-item p {
   font-size: 0.8rem;
 }
+
 /* End Statics */
 
 /* Start Testimonial */
@@ -835,6 +843,7 @@ header nav .search i:hover{
   right: -0.5rem;
   top: -0.5rem;
 }
+
 /* End Testimonial */
 
 /* Start Quote */
@@ -894,6 +903,7 @@ header nav .search i:hover{
   text-align: right;
   margin-right: 2rem;
 }
+
 /* End Quote
 
 /* Start Pricing */
@@ -1288,6 +1298,14 @@ footer .copyright span {
   align-items: center;
   justify-content: center;
   z-index: 30;
+  transition: 1s linear all;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.show-btn {
+  visibility: visible;
+  opacity: 1;
 }
 
 .back-to-top i {
@@ -1295,13 +1313,13 @@ footer .copyright span {
   transition: 0.3s;
 }
 
-.back-to-top i:hover{
+.back-to-top i:hover {
   color: var(--color-primary);
 }
 
 @media (max-width: 380px) {
   .back-to-top {
-    bottom: 3rem;
+    bottom: 2rem;
   }
 }
 
